@@ -111,7 +111,7 @@
     {
       "oneOf": [
         {
-          "$ref": "https://raw.githubusercontent.com/cvriel/amsterdam-schema/master/dataset.json"
+          "$ref": "./dataset@v1.1.1"
         },
         {
           "$ref": "./table@v1.1.1"
@@ -130,7 +130,7 @@
         }
       },
       "then": {
-        "$ref": "https://raw.githubusercontent.com/cvriel/amsterdam-schema/master/dataset.json"
+        "$ref": "./dataset@v1.1.1"
       }
     },
     {
