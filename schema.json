@@ -114,7 +114,7 @@
           "$ref": "https://raw.githubusercontent.com/cvriel/amsterdam-schema/master/dataset.json"
         },
         {
-          "$ref": "https://raw.githubusercontent.com/cvriel/amsterdam-schema/master/table.json"
+          "$ref": "./table@v1.1.1"
         },
         {
           "$ref": "./row-meta-schema@v1.1.1"
@@ -142,7 +142,7 @@
         }
       },
       "then": {
-        "$ref": "https://raw.githubusercontent.com/cvriel/amsterdam-schema/master/table.json"
+        "$ref": "./table@v1.1.1"
       }
     },
     {
