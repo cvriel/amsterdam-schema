@@ -111,7 +111,7 @@
     {
       "oneOf": [
         {
-          "$ref": "./dataset@v1.1.1"
+          "$ref": "https://github.com/cvriel/amsterdam-schema/blob/master/dataset.json"
         },
         {
           "$ref": "./table@v1.1.1"
