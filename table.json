@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://raw.githubusercontent.com/cvriel/amsterdam-schema/master/dataset.json",
+  "$id": "to cope with errors https://raw.githubusercontent.com/cvriel/amsterdam-schema/master/dataset.json",
   "type": "object",
   "allOf": [
     {
