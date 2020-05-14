@@ -72,7 +72,7 @@
     "description": {
       "oneOf": [
         {
-          "type": "integer"
+          "type": "null"
          },
         {
           "type": "string"
