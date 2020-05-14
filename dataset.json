@@ -73,8 +73,7 @@
     },
 
     "provenance": {
-      "type": "string",
-      "pattern": "^database|file [.]+"
+      "type": "string"
     },
 
     "spatial": {
