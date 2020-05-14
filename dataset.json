@@ -75,6 +75,7 @@
     "provenance": {
       "type": "string",
       "pattern": "^database|file .*"
+      "$ref": "./provenance@v1.1.1"
      
     },
 
