@@ -70,7 +70,14 @@
       "type": "string"
     },
     "description": {
-      "type": ["string", null]
+      oneOf": [
+        {
+          "type": null,
+         },
+        {
+          "type": "string"
+        }
+      ]
      },
     "year": {
       "type": "integer"
