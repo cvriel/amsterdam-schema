@@ -7,11 +7,8 @@
       "$ref": "./schema@v1.1.1#/definitions/basicProperties"
     }
   ],
-  "required": ["schema", "provenance"],
+  "required": ["schema"],
   "properties": {
-    "provenance": {
-      "type": "string"     
-    },
     "schema": {
       "oneOf": [
         {
