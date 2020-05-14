@@ -73,7 +73,8 @@
     },
 
     "provenance": {
-      "type": "string"
+      "type": "string",
+      "pattern": "^database|file .*"
      
     },
 
