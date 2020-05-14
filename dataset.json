@@ -100,7 +100,7 @@
       "items": {
         "oneOf": [
           {
-            "$ref": "https://raw.githubusercontent.com/cvriel/amsterdam-schema/master/table.json"
+            "$ref": "./table@v1.1.1"
           },
           {
             "type": "object",
