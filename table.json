@@ -10,8 +10,7 @@
   "required": ["schema", "provenance"],
   "properties": {
     "provenance": {
-      "type": "string",
-      "format": "uri-reference"
+      "type": "string"     
     },
     "schema": {
       "oneOf": [
