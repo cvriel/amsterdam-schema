@@ -70,8 +70,8 @@
       "type": "string"
     },
     "description": {
-      "type": "string"
-    },
+      "type": ["string", null]
+     },
     "year": {
       "type": "integer"
     },
