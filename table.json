@@ -7,8 +7,13 @@
       "$ref": "./schema@v1.1.1#/definitions/basicProperties"
     }
   ],
-  "required": ["schema"],
+  "required": [
+    "schema"
+  ],
   "properties": {
+    "type": {
+      "const": "table"
+    },
     "schema": {
       "oneOf": [
         {
@@ -16,7 +21,9 @@
         },
         {
           "type": "object",
-          "required": ["$ref"],
+          "required": [
+            "$ref"
+          ],
           "additionalProperties": false,
           "properties": {
             "$ref": {
@@ -26,9 +33,6 @@
           }
         }
       ]
-    },
-    "type": {
-      "const": "table"
     }
   }
 }
